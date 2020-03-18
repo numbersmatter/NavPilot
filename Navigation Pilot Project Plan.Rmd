@@ -1,0 +1,30 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Purpose
+Pilot Navigators are currently collecting all information on paper and then transfering that information to an excel spreadsheet. Our goal is build a Salesforce interface to collect the data they are collecting on paper and export that data to excel for record keeping in the short term and replace the excel workbook entirely in the long term. 
+
+## Project Plan 
+Pilot Navigators currently have two major sources of data that needed to be collected. First there is a client screener which is completed by the client. Second there is an in-person interview completed by the Navigator. 
+
+### Client Screener
+Client screener is 15 Yes/No questions long along with a notes section section for additional needs. This will need to be created in a Salesforce Object for screeners along with a flow process for input. 
+
+
+### Navigator PreNatal Interview Guide
+
+This guide has 10 sections of Yes/No questions and each section vaires in length. We will need to make a Salesforce Object with a Yes/No field for each question along with an area for comments. 
+
+
+
+## Recommendation
+
+
+
+## libraries
+
+```{r}
+library(tidyverse)
+```
